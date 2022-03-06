@@ -17,14 +17,19 @@ Following the following steps to build the code:
 mkdir build
 cd build
 
-cmake ..
+cmake ../src
 make
 ```
+
+Note: Don't forget to set the `PICO_SDK_PATH` in your environment variables.
 
 ## How To Deploy
 Please follow the following steps to deploy the compiled binaries into your Rapsberry Pi Pico.
 1) Buy a Raspberry Pi Pico
-2) Download the generated U2F file OR build it as described in section "How To Build"
+2) Download the generated UF2 file from releases OR build it as described in section "How To Build"
 3) Hold the "BootSel" button while connecting the Pico to the computer
-4) Drag and drop the U2F file to the device
+4) Drag and drop the UF2 file to the device
 5) Congrats your mouse will move around ;)
+
+## Credit
+This software was modified from the [TinyUSB](https://docs.tinyusb.org/en/latest/) HIB example. The project and CMake was created using the [Pico Project Generator](https://github.com/raspberrypi/pico-project-generator).
