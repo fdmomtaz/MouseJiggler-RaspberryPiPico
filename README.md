@@ -26,7 +26,7 @@ Note: Don't forget to set the `PICO_SDK_PATH` in your environment variables.
 ## How To Deploy
 Please follow the following steps to deploy the compiled binaries into your Rapsberry Pi Pico.
 1) Buy a Raspberry Pi Pico
-2) Download the generated UF2 file from releases OR build it as described in section "How To Build"
+2) Download the [generated UF2 file](https://github.com/fdmomtaz/MouseJiggler-RaspberryPiPico/releases/download/v1.0/mouse-jiggler.uf2) from releases OR build it as described in section "How To Build"
 3) Hold the "BootSel" button while connecting the Pico to the computer
 4) Drag and drop the UF2 file to the device
 5) Congrats your mouse will move around ;)
