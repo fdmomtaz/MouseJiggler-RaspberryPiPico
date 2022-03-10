@@ -31,5 +31,8 @@ Please follow the following steps to deploy the compiled binaries into your Raps
 4) Drag and drop the UF2 file to the device
 5) Congrats your mouse will move around ;)
 
+Here is a short video explaining the process:
+[![How To Upload](https://img.youtube.com/vi/W4Bp1pWsgLo/maxresdefault.jpg)](https://youtu.be/W4Bp1pWsgLo)
+
 ## Credit
 This software was modified from the [TinyUSB](https://docs.tinyusb.org/en/latest/) HIB example. The project and CMake was created using the [Pico Project Generator](https://github.com/raspberrypi/pico-project-generator).
